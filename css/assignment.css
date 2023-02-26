@@ -1,0 +1,58 @@
+.main{
+    background-color: #37517e;
+}
+button{
+    height: 50px;
+}
+nav{
+    background-color: transparent;
+}
+.navbar-brand{
+    font-size: 29px;
+    font-weight: 600;
+}
+.fw-bold{
+    font-size: 45px;
+}
+.text-light > h3{
+    color: rgba(255,255,255,0.5);
+    
+}
+.get-started:hover{
+    background-color: rgb(22, 101, 185);
+}
+.watch-video i{
+    transition: 0.3s;
+}
+.watch-video:hover i{
+    color: rgb(62, 122, 224);
+}
+
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.hero-animate{
+    animation: hero 1.5s alternate-reverse infinite ease-in-out;
+}
+
+@keyframes hero{
+    0%{
+        transform: translatey(-20px);
+    }
+    100%{
+        transform: translatey(10px);
+    }
+}
+
+.row > img{
+    height: 2rem;
+    width: 6.5rem;
+    transition: 0.5s;
+    filter: grayscale(100);
+}
+.row >img:hover:hover{
+    filter: none;
+    transform: scale(1.2);
+}
