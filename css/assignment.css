@@ -46,13 +46,13 @@ nav{
     }
 }
 
-.row > img{
+.brands img{
     height: 2rem;
-    width: 6.5rem;
+    width: 6rem;
     transition: 0.5s;
     filter: grayscale(100);
 }
-.row >img:hover:hover{
+.brands img:hover{
     filter: none;
     transform: scale(1.2);
 }
