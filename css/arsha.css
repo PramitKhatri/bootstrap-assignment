@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main{
     background-color: #37517e;
 }
@@ -45,14 +51,19 @@ nav{
         transform: translatey(10px);
     }
 }
-
-.brands img{
-    height: 2rem;
-    width: 6rem;
+.client-logo{
+    width: 50%;
+    
+    padding: 20px 0 20px 20px;
+    
+}
+.client img{
+    height: 100%;
+    width: 100%;
     transition: 0.5s;
     filter: grayscale(100);
 }
-.brands img:hover{
+.client img:hover{
     filter: none;
     transform: scale(1.2);
 }
