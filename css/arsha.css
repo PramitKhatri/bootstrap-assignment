@@ -53,6 +53,7 @@ nav{
 }
 .client-logo{
     width: 50%;
+    color: #f3f5fa;;
     
     padding: 20px 0 20px 20px;
     
@@ -66,4 +67,29 @@ nav{
 .client img:hover{
     filter: none;
     transform: scale(1.2);
+}
+
+/* ==================About us=========================== */
+.about{
+    padding: 5% ;
+
+}
+.about-head{
+    color:#37517e;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px;
+}
+.about hr{
+width: 10%;
+margin:auto;
+margin-bottom: 45px;
+
+}
+.about-body{
+    font-size: 17px;
+}
+.about button{
+    width: 9rem;
+    height: 2.5rem;
 }
